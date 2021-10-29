@@ -43,6 +43,10 @@
 //.4 Check if a numberis a multiple of 3, 5 or 7 and output the appropriate message
 
 // function multiple(a){
-   
+//    if(a % 3 == 0 || a % 5 == 0 || a % 7 == 0){
+//        return "multiple"
+//    }else{
+//        return "It is`nt multiple"
+//    }
 // }
-// console.log(multiple(10));
+// console.log(multiple(19));
