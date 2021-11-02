@@ -13,22 +13,24 @@
 // }
 // console.log(lastNum(500));
 
-
-
-
-
 //.4 Check if a numberis a multiple of 3, 5 or 7 and output the appropriate message
 
-// function number(res){
-//     let a = 3,
-//         b = 5,
-//         c = 7
-//         if(res % a == 0 || res % b == 0 || res % c == 0){
-//             return `${res} is a multiple`
-//         }else{
-//             return `${res} is not multiple ${a} ${b} ${c}`
-//         }
+// bolor zuyg tvere bajanel 2 (grel map-ov)
+//zuyg kent tvere gtnel filter-ov
+// sort method
+
+// function number(res) {
+//   let arr = [3, 5, 7, 1, 21];
+//   let newArr = arr.filter((item) => res % item === 0);
+//   if (newArr.length === 0) {
+//     return;
+//   }
+//   if (newArr.length === 1) {
+//     return `${newArr[0]}`;
+//   }
+//   let newArr2 = newArr.filter(
+//     (item, index, arr) => index !== newArr.length - 1
+//   );
+//   return `${newArr2}, ${newArr[newArr.length - 1]}`;
 // }
-// console.log(number(15));
-
-
+// console.log(number(21));
